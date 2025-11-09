@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(to bottom right, #0b0f13, #1c1f24);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 700px;
+  border-radius: 18px;
+  background: rgba(16, 20, 24, 0.98);
+  box-shadow: 0 0 20px rgba(255,255,255,0.12);
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 45px 0 45px;
+  background: #0b0f13;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  background: none;
+}
+.right-logo {
+  float: right;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.bot-title {
+  color: #5cf; 
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: 3px;
+}
+.main-title {
+  flex: 1;
+  text-align: center;
+  font-size: 26px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: #fff;
+}
+main {
+  position: relative;
+  padding: 55px 0 0 0;
+  min-height: 380px;
+}
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+}
+.headline {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 22px;
+  font-weight: 600;
+}
+.actions {
+  display: flex;
+  gap: 60px;
+  margin-top: 20px;
+}
+.actions > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.sign-btn, .login-btn {
+  font-size: 19px;
+  font-weight: 600;
+  padding: 15px 35px;
+  border-radius: 27px;
+  border: none;
+  margin-bottom: 8px;
+  box-shadow: 0 2px 12px rgba(36,36,36,0.17);
+  cursor: pointer;
+  transition: 0.2s;
+}
+.sign-btn {
+  background: #c74444;
+  color: #fff;
+}
+.sign-btn:hover {
+  background: #e46f6f;
+}
+.login-btn {
+  background: #87882b;
+  color: #fff;
+}
+.login-btn:hover {
+  background: #b7be56;
+}
+.action-label {
+  color: #b3b3b3;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+.decor {
+  position: absolute;
+  top: 85px;
+  height: 220px;
+  width: 40px;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.decor-left {
+  left: 10px;
+}
+.decor-right {
+  right: 10px;
+}
+.line {
+  width: 2px;
+  height: 50px;
+  background: #43ffd7;
+  border-radius: 1px;
+  margin: 0 0 4px 0;
+}
+.star {
+  width: 6px;
+  height: 6px;
+  background: #ffb530;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
